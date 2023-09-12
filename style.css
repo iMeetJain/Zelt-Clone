@@ -222,7 +222,6 @@ canvas {
 #left-page6 {
     height: 100vh;
     width: 50vw;
-    background-color: red;
     display: flex;
     align-items: start;
     justify-content: center;
@@ -242,7 +241,141 @@ canvas {
 }
 
 #right-page6 {
+    position: relative;
     height: 100vh;
     width: 50vw;
-    background-color: yellow;
+}
+
+#right-page6>video{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50% );
+    height: 70%;
+    width: 70%;
+}
+
+#page7 {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+#left-page7 {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10vw;
+}
+
+#left-page7>h1 {
+    font-size: 2.8vw;
+    font-weight: 600;
+}
+
+#left-page7>h4 {
+    font-size: 19px;
+    font-weight: 300;
+    width: 60%;
+}
+
+#right-page7 {
+    position: relative;
+    height: 100vh;
+    width: 50vw;
+}
+
+#right-page7>video{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50% );
+    height: 70%;
+    width: 70%;
+}
+#page6 {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+#left-page6 {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10vw;
+}
+
+#left-page6>h1 {
+    font-size: 2.8vw;
+    font-weight: 600;
+}
+
+#left-page6>h4 {
+    font-size: 20px;
+    font-weight: 300;
+    width: 60%;
+}
+
+#right-page6 {
+    position: relative;
+    height: 100vh;
+    width: 50vw;
+}
+
+#right-page6>video{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50% );
+    height: 70%;
+    width: 70%;
+}
+
+#page8 {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+#left-page8 {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10vw;
+}
+
+#left-page8>h1 {
+    font-size: 2.8vw;
+    font-weight: 600;
+}
+
+#left-page8>h4 {
+    font-size: 19px;
+    font-weight: 300;
+    width: 60%;
+}
+
+#right-page8 {
+    position: relative;
+    height: 100vh;
+    width: 50vw;
+}
+
+#right-page8>img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50% );
+    height: 70%;
+    width: 70%;
 }
